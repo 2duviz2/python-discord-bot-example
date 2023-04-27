@@ -1,5 +1,6 @@
 # python-discord-bot-example
 A python discord bot example
+This is an spanish bot, so you have to translate it
 
 ## How to use
 PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON...
