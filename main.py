@@ -60,10 +60,10 @@ async def on_message(message):
     elif message.content.startswith(prefix+'help'):
         await message.channel.send("**Parece que necesitas ayuda**\n**-hola** * te saludo *\n**-adios** * bye bye *\n**-genpass (numero)** * genera una contraseña con el numero de caracteres que escribiste *\n**-random (numero)** * genera un numero del 0 a tu numero *")
 
-    elif message.content.startswith(prefix+'ahelp') and str(message.author) == "Duviz 2#2937":
+    elif message.content.startswith(prefix+'ahelp') and str(message.author) == "Usuario#0000":
         await message.channel.send("**AAyuda**\n**-prefixset (prefix)**")
 
-    elif message.content.startswith(prefix+'prefixset ') and str(message.author) == "Duviz 2#2937":
+    elif message.content.startswith(prefix+'prefixset ') and str(message.author) == "Usuario#0000":
         tempnumber = message.content.replace(prefix+"prefixset ", "")
         prefix = str(tempnumber)
         await message.channel.send("El prefix ahora es " + str(prefix))
