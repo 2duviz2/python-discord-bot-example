@@ -10,6 +10,6 @@ PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYT
 ### Solution 2:
 -You don't have discord.py installed, write in a terminal "pip install discord"
 ### Solution 3:
--You don't have checked all the "Privileged Gateway Intents" checkboxes
+-You don't have checked all the "Privileged Gateway Intents" checkboxes on discord developers website
 ### Solution 4:
 -You don't have the token saved in "settings.py"
