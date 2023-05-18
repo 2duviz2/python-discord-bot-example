@@ -1,6 +1,7 @@
 # python-discord-bot-example
 A python discord bot example
 This is an spanish bot, so you have to translate it
+Warning, the KODLAND-TASKS folder is for my tasks
 
 ## How to use
 PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON PYTHON...
