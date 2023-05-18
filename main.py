@@ -83,19 +83,19 @@ async def on_message(message):
     elif message.content.startswith(prefix+'meme'):
         rand = random.randint(1,7)
         if rand == 1:
-            await message.channel.send(file=discord.File(r'C:\Users\javie\Pictures\B9ZEaPLN_400x400.jpg'))
+            await message.channel.send(file=discord.File(r'C:\meme'))
         if rand == 2:
-            await message.channel.send(file=discord.File(r'C:\Users\javie\Pictures\buho.png'))
+            await message.channel.send(file=discord.File(r'C:\meme'))
         if rand == 3:
-            await message.channel.send(file=discord.File(r'C:\Users\javie\Pictures\mujer gamer.png'))
+            await message.channel.send(file=discord.File(r'C:\meme'))
         if rand == 4:
-            await message.channel.send(file=discord.File(r'C:\Users\javie\Pictures\ssstwitter.com_1679246036930.mp4'))
+            await message.channel.send(file=discord.File(r'C:\meme'))
         if rand == 5:
-            await message.channel.send(file=discord.File(r'C:\Users\javie\Pictures\ssstwitter.com_1679425493692.mp4'))
+            await message.channel.send(file=discord.File(r'C:\meme'))
         if rand == 6:
-            await message.channel.send(file=discord.File(r'C:\Users\javie\Pictures\YOUTUBER PROMEDIO.jpeg'))
+            await message.channel.send(file=discord.File(r'C:\meme'))
         if rand == 7:
-            await message.channel.send(file=discord.File(r'C:\Users\javie\Pictures\ohio.pjpg.jpg'))
+            await message.channel.send(file=discord.File(r'C:\meme'))
 
     elif message.content.startswith(prefix+'help'):
         helpmsg = "**Parece que necesitas ayuda**\n\n**-hola** * te saludo *\n\n**-adios** * bye bye *\n\n**-genpass (numero)** * genera una contraseña con el numero de caracteres que escribiste *\n\n**-random (numero)** * genera un numero del 0 a tu numero *\n\n**-rpg** * minijuego, solo puede jugar 1 a la vez pero todos pueden interactuar *\n\n**-meme** * meme random *\n\n**AVISO: ESTE BOT PUEDE CONTENER RACISMO, MACHISMO O REFERENCIAS SEXUALES!!!**"
