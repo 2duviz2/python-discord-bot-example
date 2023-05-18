@@ -9,8 +9,12 @@ bot = commands.Bot(command_prefix='>', intents=intents)
 @bot.event
 async def on_ready():
     print(f'Ha iniciado sesión como {bot.user}')
-    await bot.change_presence(activity=discord.Game("VOY A ACABAR CON LOS NEGROS"))
+    await bot.change_presence(activity=discord.Game(">help para ayuda!"))
 
+@bot.command()
+async def help(ctx):
+    await ctx.send("comandos!\n**>help**\n**>donar**\n**>consejo**\n**>articulo**")
+    
 @bot.command()
 async def consejo(ctx):
     consejos = [
@@ -27,6 +31,10 @@ async def consejo(ctx):
     ]
     consejo_aleatorio = random.choice(consejos)
     await ctx.send(consejo_aleatorio)
+    
+@bot.command()
+async def donar(ctx):
+    await ctx.send("https://teamseas.org")
 
 @bot.command()
 async def articulo(ctx):
